@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700" rel="stylesheet">
+		<link href="https://file.myfontastic.com/EHymb9ehYxSGrb9jiamxbQ/icons.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/materialize.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+    <title>Lafourcade Arquitectura</title>
+</head>
+<body>
+
+	<header class="main-header">
+		<nav>
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo"><img src="img/D4logo.png" alt="" class="img-logo"></a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="index.html" class="menu-link">Inicio</a></li>
+						<li><a href="about-us.html" class="menu-link">Nosotros</a></li>
+						<li><a href="#" class="menu-link">Servicios</a></li>
+						<li><a href="arquitectura.html" class="menu-link">Arquitectura</a></li>
+						<li><a href="contact.html" class="menu-link">Contacto</a></li>
+					</ul>
+				</div>
+
+				<ul id="slide-out" class="sidenav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="about-us.html">Nosotros</a></li>
+					<li><a href="#">Servicios</a></li>
+					<li><a href="arquitectura.html">Arquitectura</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+				</ul>
+  			<a href="#" data-target="slide-out" class="sidenav-trigger icon-menu right"></a>
+			</div>
+		</nav>
+	</header>
+
+	<section class="nosotros">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6">
+					<img src="img/D4logo.png" alt="">
+					<div class="logo-branding">
+						<img src="img/lf-logo.png" alt="">
+						<img src="img/dum-logo.png" alt="">
+					</div>
+				</div>
+				<div class="col s12 m6">
+					<h2>Lorem, ipsum dolor.</h2>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum nobis voluptatem unde quaerat, nemo, dicta alias at, vitae aspernatur recusandae excepturi. Fugit quam consequatur expedita eos autem cupiditate ex exercitationem aspernatur dolore a quis facilis repellat, praesentium totam iusto voluptates officiis, harum natus ab voluptatem labore dolorum, corrupti veritatis.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Grupo 4D</h5>
+						<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">Enlaces</h5>
+						<ul>
+							<li><a class="grey-text text-lighten-3" href="#!">Nosotros</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Servicios</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Arquitectura</a></li>
+							<li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+				©2018 
+				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+				</div>
+			</div>
+		</footer>
+		<script src="js/materialize.min.js"></script>
+		<script>
+			// sidenav
+			let sidenav = document.querySelector('.sidenav');
+			  let sdInstance = M.Sidenav.init(sidenav, {
+				edge: 'right',
+				draggable: 'true'
+			});
+		
+			// carousel
+			let carousel = document.querySelector('.carousel');
+			  let cInstance = M.Carousel.init(carousel, {
+				duration: 200,
+				dist: 0,
+				shift: 10,
+				padding: 10
+			});
+		
+			// parallax
+			let parallax = document.querySelector('.parallax');
+			  let pInstance = M.Parallax.init(parallax, {
+				responsiveThreshold: 320
+			});
+		</script>
+	</body>
+	</html>
