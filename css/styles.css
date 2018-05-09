@@ -10,7 +10,6 @@
 .copy-title{
 	margin: 0;
 	font-size: 4em;
-	/* font-family: 'Open Sans' sans-serif; */
 	color: #fff;
 }
 
@@ -26,14 +25,8 @@
 	color: #727272;
 }
 
-.copy-text2{
-	margin: 0;
-	font-size: 1.8em;
-	color: #727272;
-}
-
 .copy-container{
-	border-left: 5px solid #ffb300;
+	border-left: 5px solid #00ccff;
 }
 
 .bold{
@@ -41,7 +34,7 @@
 }
 
 .cta-color{
-	color: #ffb300;
+	color: #00ccff;
 }
 
 /* header styles */
