@@ -1,3 +1,15 @@
 .brand-img{
-  width: 250px;
+  height: 85px;
+  max-width: 100%;
+}
+
+.principal-logo,.logo-branding{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy-title{
+  text-align: center;
 }
